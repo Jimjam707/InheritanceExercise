@@ -19,7 +19,7 @@ namespace Inheritance
             
             Console.WriteLine("Bird Exhibit Info:");
             Console.WriteLine("====================");
-            Console.WriteLine($"This bird is a {penguin.Name} and it is {penguin.Age} year(s) old. It is {penguin.Color} and live on/in the {penguin.LandSeaAir}");
+            Console.WriteLine($"This bird is a {penguin.Name} and it is {penguin.Age} year(s) old. It is {penguin.Color} and live on/in the {penguin.LandSeaAir}.");
             Console.WriteLine($"Penguins can fly: {penguin.CanFly}. and can swim: {penguin.CanSwim}. Its average wing span is {penguin.WingSpan} feet.");
             Console.WriteLine($"The native biome for the penguin is {penguin.NativeBiome}.");
             Console.WriteLine();
